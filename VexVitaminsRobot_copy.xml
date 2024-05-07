@@ -42,12 +42,147 @@
 	<vitamins>
 
 		<vitamin>
+			<name>motor</name>
+			<type>vexMotor</type>
+			<id>393</id>
+			<pose>
+	<x>32.400000000000006</x>
+	<y>170.45</y>
+	<z>-336.5500000000001</z>
+	<rotw>-8.726646248878822E-5</rotw>
+	<rotx>-0.9999999961922823</rotx>
+	<roty>-2.5129086027198066E-24</roty>
+	<rotz>2.879581137454967E-20</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+		<vitamin>
 			<name>shaft</name>
 			<type>vexWheels</type>
 			<id>4inchSmooth</id>
 			<pose>
+	<x>32.400000000000006</x>
+	<y>170.45</y>
+	<z>-351.25</z>
+	<rotw>-8.726646248878822E-5</rotw>
+	<rotx>-0.9999999961922823</rotx>
+	<roty>-2.5129086027198066E-24</roty>
+	<rotz>2.879581137454967E-20</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>hobbyServo</type>
+			<id>mg92b</id>
+			<pose>
 	<x>0.0</x>
 	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>false</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>0.0</rotx>
+	<roty>0.0</roty>
+	<rotz>0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>52.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>58.199999999999996</x>
+	<y>-88.79999999999998</y>
+	<z>12.6</z>
+	<rotw>0.5048458934646385</rotw>
+	<rotx>0.5048458934646469</rotx>
+	<roty>0.4951066792640575</roty>
+	<rotz>-0.49510667926406626</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>wheel2</name>
+	<cadEngine>
+		<git>https://github.com/adam-vr/VexVitaminsRobot_copy.git</git>
+		<file>VexVitaminsRobotCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/madhephaestus/carl-the-hexapod.git</git>
+		<file>DefaultDhSolver.groovy</file>
+	</kinematics>
+<link>
+	<name>wheel</name>
+	<deviceName>virtualDev</deviceName>
+	<type>virtual</type>
+	<index>1</index>
+	<scale>1.0</scale>
+	<upperLimit>1000000.0</upperLimit>
+	<lowerLimit>-1000000.0</lowerLimit>
+	<upperVelocity>328.0</upperVelocity>
+	<lowerVelocity>-328.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>2.147483647E9</deviceTheoreticalMax>
+	<deviceTheoreticalMin>-2.147483648E9</deviceTheoreticalMin>
+	<isLatch>true</isLatch>
+	<indexLatch>145.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>vexWheels</type>
+			<id>4inchSmooth</id>
+			<pose>
+	<x>27.75</x>
+	<y>170.45</y>
 	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>-0.0</rotx>
@@ -62,6 +197,125 @@
 			<type>vexMotor</type>
 			<id>393</id>
 			<pose>
+	<x>31.75</x>
+	<y>165.09999999999994</y>
+	<z>-19.049999999999997</z>
+	<rotw>8.726646248878822E-5</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>0.9999999961922823</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>false</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>0.0</rotx>
+	<roty>0.0</roty>
+	<rotz>0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>52.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>58.2</x>
+	<y>-12.599999999999998</y>
+	<z>12.6</z>
+	<rotw>0.5048458934646433</rotw>
+	<rotx>0.5048458934646445</rotx>
+	<roty>0.49510667926406</roty>
+	<rotz>-0.4951066792640614</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>wheel3</name>
+	<cadEngine>
+		<git>https://github.com/adam-vr/VexVitaminsRobot_copy.git</git>
+		<file>VexVitaminsRobotCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/madhephaestus/carl-the-hexapod.git</git>
+		<file>DefaultDhSolver.groovy</file>
+	</kinematics>
+<link>
+	<name>wheel</name>
+	<deviceName>virtualDev</deviceName>
+	<type>virtual</type>
+	<index>2</index>
+	<scale>1.0</scale>
+	<upperLimit>1000000.0</upperLimit>
+	<lowerLimit>-1000000.0</lowerLimit>
+	<upperVelocity>328.0</upperVelocity>
+	<lowerVelocity>-328.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>2.147483647E9</deviceTheoreticalMax>
+	<deviceTheoreticalMin>-2.147483648E9</deviceTheoreticalMin>
+	<isLatch>true</isLatch>
+	<indexLatch>145.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>vexWheels</type>
+			<id>4inchSmooth</id>
+			<pose>
+	<x>25.4</x>
+	<y>6.35</y>
+	<z>-6.35</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>hobbyServo</type>
+			<id>mg92b</id>
+			<pose>
 	<x>0.0</x>
 	<y>0.0</y>
 	<z>0.0</z>
@@ -71,6 +325,109 @@
 	<rotz>-0.0</rotz>
 			</pose>
 			<frame>lastlink</frame>
+		</vitamin>
+
+	</vitamins>
+	<passive>false</passive>
+	<mass>0.01</mass>
+	<centerOfMassFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>0.0</rotx>
+	<roty>0.0</roty>
+	<rotz>0.0</rotz>
+</centerOfMassFromCentroid>
+	<imuFromCentroid>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+</imuFromCentroid>
+
+	<DHParameters>
+		<Delta>0.0</Delta>
+		<Theta>0.0</Theta>
+		<Radius>52.0</Radius>
+		<Alpha>0.0</Alpha>
+	</DHParameters>
+
+</link>
+
+<ZframeToRAS
+>
+	<x>0.0</x>
+	<y>0.0</y>
+	<z>0.0</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+
+</ZframeToRAS>
+
+<baseToZframe>
+
+	<x>58.2</x>
+	<y>-12.599999999999998</y>
+	<z>12.6</z>
+	<rotw>0.5048458934646433</rotw>
+	<rotx>0.5048458934646445</rotx>
+	<roty>0.49510667926406</roty>
+	<rotz>-0.4951066792640614</rotz>
+
+</baseToZframe>
+
+</drivable>
+<drivable>
+
+<name>wheel4</name>
+	<cadEngine>
+		<git>https://github.com/adam-vr/VexVitaminsRobot_copy.git</git>
+		<file>VexVitaminsRobotCad.groovy</file>
+	</cadEngine>
+	<kinematics>
+		<git>https://github.com/madhephaestus/carl-the-hexapod.git</git>
+		<file>DefaultDhSolver.groovy</file>
+	</kinematics>
+<link>
+	<name>wheel</name>
+	<deviceName>virtualDev</deviceName>
+	<type>virtual</type>
+	<index>3</index>
+	<scale>1.0</scale>
+	<upperLimit>1000000.0</upperLimit>
+	<lowerLimit>-1000000.0</lowerLimit>
+	<upperVelocity>328.0</upperVelocity>
+	<lowerVelocity>-328.0</lowerVelocity>
+	<staticOffset>0.0</staticOffset>
+	<deviceTheoreticalMax>2.147483647E9</deviceTheoreticalMax>
+	<deviceTheoreticalMin>-2.147483648E9</deviceTheoreticalMin>
+	<isLatch>true</isLatch>
+	<indexLatch>145.0</indexLatch>
+	<isStopOnLatch>false</isStopOnLatch>
+	<homingTPS>10000000</homingTPS>
+
+	<vitamins>
+
+		<vitamin>
+			<name>shaft</name>
+			<type>vexWheels</type>
+			<id>4inchSmooth</id>
+			<pose>
+	<x>25.4</x>
+	<y>6.35</y>
+	<z>-298.45</z>
+	<rotw>1.0</rotw>
+	<rotx>-0.0</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>origin</frame>
 		</vitamin>
 
 	</vitamins>
@@ -176,51 +533,915 @@
 	<vitamins>
 
 		<vitamin>
-			<name>beam2</name>
-			<type>vexCchannel</type>
-			<id>Aluminum 3x15</id>
+			<name>beam</name>
+			<type>vexLchannel</type>
+			<id>2x2x25_Aluminum</id>
 			<pose>
-	<x>0.0</x>
+	<x>-1.7763568394002505E-15</x>
 	<y>0.0</y>
-	<z>25.4</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
+	<z>0.0</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>-0.7071067811865475</rotx>
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>default</frame>
+			<frame>lastlink</frame>
 		</vitamin>
 
 		<vitamin>
-			<name>beam</name>
-			<type>vexCchannel</type>
-			<id>Aluminum 3x15</id>
+			<name>bearing</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
 			<pose>
-	<x>0.0</x>
+	<x>50.800000000000004</x>
 	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>0.6087614290087178</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.7933533402912376</roty>
+	<z>-12.7</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>0.7071067811865475</rotx>
+	<roty>1.962615573354719E-17</roty>
+	<rotz>-1.9626155733547187E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>50.800000000000004</x>
+	<y>0.0</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>0.7071067811865475</rotx>
+	<roty>1.962615573354719E-17</roty>
+	<rotz>-1.9626155733547187E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw2</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>215.8999999999999</x>
+	<y>1.63</y>
+	<z>-12.7</z>
+	<rotw>6.170670739597625E-5</rotw>
+	<rotx>6.170670739599101E-5</rotx>
+	<roty>0.7071067784940847</roty>
+	<rotz>0.7071067784940843</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing2</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
+			<pose>
+	<x>76.2</x>
+	<y>1.63</y>
+	<z>-12.7</z>
+	<rotw>-1.2341341432233418E-4</rotw>
+	<rotx>-1.234134143222949E-4</rotx>
+	<roty>-0.7071067704166953</roty>
+	<rotz>-0.7071067704166955</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut2</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>76.2</x>
+	<y>1.63</y>
+	<z>-12.7</z>
+	<rotw>-1.234134143223342E-4</rotw>
+	<rotx>-1.2341341432229493E-4</rotx>
+	<roty>-0.7071067704166953</roty>
+	<rotz>-0.7071067704166955</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw3</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>241.29999999999987</x>
+	<y>0.0</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865474</rotw>
+	<rotx>0.7071067811865477</rotx>
+	<roty>1.9626155733547183E-17</roty>
+	<rotz>-1.9626155733547193E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing3</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
+			<pose>
+	<x>215.8999999999999</x>
+	<y>0.0</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>0.7071067811865475</rotx>
+	<roty>1.962615573354719E-17</roty>
+	<rotz>-1.9626155733547187E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut3</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>215.8999999999999</x>
+	<y>0.0</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>0.7071067811865475</rotx>
+	<roty>1.962615573354719E-17</roty>
+	<rotz>-1.9626155733547187E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>50.800000000000004</x>
+	<y>1.63</y>
+	<z>-12.7</z>
+	<rotw>-6.170670739599341E-5</rotw>
+	<rotx>-6.170670739597382E-5</rotx>
+	<roty>-0.7071067784940847</roty>
+	<rotz>-0.7071067784940843</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw4</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>253.99999999999986</x>
+	<y>0.0</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865474</rotw>
+	<rotx>0.7071067811865477</rotx>
+	<roty>1.9626155733547183E-17</roty>
+	<rotz>-1.9626155733547193E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw5</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>76.2</x>
+	<y>0.0</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865474</rotw>
+	<rotx>0.7071067811865477</rotx>
+	<roty>1.9626155733547183E-17</roty>
+	<rotz>-1.9626155733547193E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing4</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>Flat_Bearing</id>
+			<pose>
+	<x>241.29999999999987</x>
+	<y>1.63</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>-0.7071067811865475</rotx>
+	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>default</frame>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>spacer</name>
+			<type>vexSpacer</type>
+			<id>oneEighth</id>
+			<pose>
+	<x>63.50000000000002</x>
+	<y>11.349999999999996</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>spacer2</name>
+			<type>vexSpacer</type>
+			<id>oneEighth</id>
+			<pose>
+	<x>63.50000000000002</x>
+	<y>-6.0</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>wheel</name>
+			<type>vexWheels</type>
+			<id>4inchSmooth</id>
+			<pose>
+	<x>63.50000000000002</x>
+	<y>-9.0</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>spacer3</name>
+			<type>vexSpacer</type>
+			<id>oneEighth</id>
+			<pose>
+	<x>228.59999999999988</x>
+	<y>-6.0</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>wheel2</name>
+			<type>vexWheels</type>
+			<id>4inchSmooth</id>
+			<pose>
+	<x>228.59999999999988</x>
+	<y>-9.0</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664618425</rotw>
+	<rotx>0.4999127335381576</rotx>
+	<roty>-0.4999999923840836</roty>
+	<rotz>0.49999999238504544</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw6</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>304.8</x>
+	<y>235.64999999999986</y>
+	<z>6.0</z>
+	<rotw>7.615435423628496E-9</rotw>
+	<rotx>8.726646156430918E-5</rotx>
+	<roty>-0.9999999923845646</roty>
+	<rotz>-8.726646215650216E-5</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing5</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer</id>
+			<pose>
+	<x>304.8</x>
+	<y>235.64999999999986</y>
+	<z>9.0</z>
+	<rotw>0.7071067784940845</rotw>
+	<rotx>6.170670739622043E-5</rotx>
+	<roty>-6.170670739622039E-5</roty>
+	<rotz>-0.7071067784940844</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut4</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>304.8</x>
+	<y>19.749999999999996</y>
+	<z>9.0</z>
+	<rotw>0.7072301811382272</rotw>
+	<rotx>6.171747630847757E-5</rotx>
+	<roty>6.169593660426948E-5</roty>
+	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut5</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>304.8</x>
+	<y>235.64999999999986</y>
+	<z>9.0</z>
+	<rotw>0.7072301811382272</rotw>
+	<rotx>6.171747630847758E-5</rotx>
+	<roty>6.169593660426952E-5</roty>
+	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing6</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer</id>
+			<pose>
+	<x>304.8</x>
+	<y>19.749999999999996</y>
+	<z>9.0</z>
+	<rotw>0.7072301811382272</rotw>
+	<rotx>6.171747630847757E-5</rotx>
+	<roty>6.169593660426951E-5</roty>
+	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw7</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>304.8</x>
+	<y>19.749999999999996</y>
+	<z>6.0</z>
+	<rotw>7.615435423628496E-9</rotw>
+	<rotx>8.726646156430918E-5</rotx>
+	<roty>-0.9999999923845646</roty>
+	<rotz>-8.726646215650216E-5</rotz>
+			</pose>
+			<frame>lastlink</frame>
 		</vitamin>
 
 		<vitamin>
 			<name>beam3</name>
 			<type>vexLchannel</type>
-			<id>Aluminum 10</id>
+			<id>2x2x25_Aluminum</id>
 			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>38.1</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
+	<x>-1.7763568394002505E-15</x>
+	<y>247.64999999999986</y>
+	<z>6.35</z>
+	<rotw>8.726646248878822E-5</rotw>
+	<rotx>-0.9999999961922823</rotx>
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>default</frame>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>motor2</name>
+			<type>vexMotor</type>
+			<id>v5_11w</id>
+			<pose>
+	<x>228.59999999999988</x>
+	<y>247.3</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000436313283436</rotw>
+	<rotx>-0.49995636486393863</rotx>
+	<roty>0.49995636486600636</roty>
+	<rotz>0.5000436313262762</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw8</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>253.99999999999986</x>
+	<y>254.69999999999985</y>
+	<z>-13.050000000000002</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>-0.7071067811865475</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw9</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>241.29999999999987</x>
+	<y>254.69999999999985</y>
+	<z>-13.050000000000002</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>-0.7071067811865475</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>spacer4</name>
+			<type>vexSpacer</type>
+			<id>oneEighth</id>
+			<pose>
+	<x>228.59999999999988</x>
+	<y>265.05</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>wheel3</name>
+			<type>vexWheels</type>
+			<id>4inchSmooth</id>
+			<pose>
+	<x>228.59999999999988</x>
+	<y>284.1000000000001</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing7</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>Flat_Bearing</id>
+			<pose>
+	<x>241.29999999999987</x>
+	<y>253.35</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>0.7071067811865475</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing8</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
+			<pose>
+	<x>215.8999999999999</x>
+	<y>254.65</y>
+	<z>-13.8</z>
+	<rotw>0.7071684852014806</rotw>
+	<rotx>-0.7070450717866884</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw10</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>215.8999999999999</x>
+	<y>253.3</y>
+	<z>-13.8</z>
+	<rotw>6.171209208707345E-5</rotw>
+	<rotx>-6.170132223497035E-5</rotx>
+	<roty>-0.7070450690944606</roty>
+	<rotz>0.7071684825087824</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut6</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>215.8999999999999</x>
+	<y>256.3</y>
+	<z>-13.8</z>
+	<rotw>0.7071684852014802</rotw>
+	<rotx>-0.7070450717866887</rotx>
+	<roty>1.4711317352899973E-17</roty>
+	<rotz>1.4708749967688956E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing9</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
+			<pose>
+	<x>50.800000000000004</x>
+	<y>255.0</y>
+	<z>-13.7</z>
+	<rotw>0.7071067811865476</rotw>
+	<rotx>-0.7071067811865475</rotx>
+	<roty>-0.0</roty>
+	<rotz>-0.0</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut7</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>76.2</x>
+	<y>253.99999999999986</y>
+	<z>-13.7</z>
+	<rotw>0.7071067811865479</rotw>
+	<rotx>0.7071067811865471</rotx>
+	<roty>2.6981172591700262E-17</roty>
+	<rotz>-2.6981172591700234E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw11</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>76.2</x>
+	<y>255.62999999999985</y>
+	<z>-12.699999999999998</z>
+	<rotw>-6.170670739599341E-5</rotw>
+	<rotx>-6.170670739597384E-5</rotx>
+	<roty>-0.7071067784940847</roty>
+	<rotz>-0.7071067784940843</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>spacer5</name>
+			<type>vexSpacer</type>
+			<id>oneEighth</id>
+			<pose>
+	<x>63.50000000000002</x>
+	<y>248.3</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>spacer6</name>
+			<type>vexSpacer</type>
+			<id>oneEighth</id>
+			<pose>
+	<x>63.50000000000002</x>
+	<y>264.35</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664617015</rotw>
+	<rotx>0.49991273353829857</rotx>
+	<roty>-0.49999999238410936</roty>
+	<rotz>0.4999999923850197</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing10</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
+			<pose>
+	<x>76.2</x>
+	<y>253.99999999999986</y>
+	<z>-13.7</z>
+	<rotw>4.329780281177467E-17</rotw>
+	<rotx>-4.329780281177466E-17</rotx>
+	<roty>-0.7071067811865475</roty>
+	<rotz>0.7071067811865476</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>wheel4</name>
+			<type>vexWheels</type>
+			<id>4inchSmooth</id>
+			<pose>
+	<x>63.50000000000002</x>
+	<y>264.35</y>
+	<z>-12.700000000000001</z>
+	<rotw>0.5000872664621785</rotw>
+	<rotx>-0.49991273353782134</rotx>
+	<roty>0.4999999923845866</roty>
+	<rotz>0.4999999923845426</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>brain</name>
+			<type>VexBrain</type>
+			<id>v5</id>
+			<pose>
+	<x>114.29999999999998</x>
+	<y>54.80000000000017</y>
+	<z>6.349999999999998</z>
+	<rotw>0.7071684852012867</rotw>
+	<rotx>5.62297011902667E-13</rotx>
+	<roty>5.621988811239338E-13</roty>
+	<rotz>0.7070450717868824</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>beam4</name>
+			<type>vexCchannel</type>
+			<id>Aluminum_1x2x25</id>
+			<pose>
+	<x>6.35</x>
+	<y>-24.7</y>
+	<z>8.0</z>
+	<rotw>0.7071684852012867</rotw>
+	<rotx>5.62297011902667E-13</rotx>
+	<roty>5.621988811239338E-13</roty>
+	<rotz>0.7070450717868824</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>beam2</name>
+			<type>vexLchannel</type>
+			<id>2x2x25_Aluminum</id>
+			<pose>
+	<x>319.5</x>
+	<y>-24.7</y>
+	<z>1.6500000000000004</z>
+	<rotw>0.5000436313272486</rotw>
+	<rotx>-0.5000436313272485</rotx>
+	<roty>-0.4999563648650337</roty>
+	<rotz>0.49995636486503375</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing11</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer</id>
+			<pose>
+	<x>1.2434497875801753E-14</x>
+	<y>235.64999999999986</y>
+	<z>9.0</z>
+	<rotw>0.7071067784940845</rotw>
+	<rotx>6.170670739622043E-5</rotx>
+	<roty>-6.170670739622039E-5</roty>
+	<rotz>-0.7071067784940844</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing12</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer</id>
+			<pose>
+	<x>1.2434497875801753E-14</x>
+	<y>19.750000000000007</y>
+	<z>9.0</z>
+	<rotw>0.7071067784940845</rotw>
+	<rotx>6.170670739622037E-5</rotx>
+	<roty>6.170670739622039E-5</roty>
+	<rotz>0.7071067784940844</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut8</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>127.0</x>
+	<y>19.749999999999996</y>
+	<z>9.0</z>
+	<rotw>0.7072301811382272</rotw>
+	<rotx>6.17174763084776E-5</rotx>
+	<roty>6.169593660426954E-5</roty>
+	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut9</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>127.0</x>
+	<y>235.64999999999986</y>
+	<z>9.0</z>
+	<rotw>0.7072301811382272</rotw>
+	<rotx>6.171747630847761E-5</rotx>
+	<roty>6.169593660426955E-5</roty>
+	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw12</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>127.0</x>
+	<y>235.64999999999986</y>
+	<z>6.0</z>
+	<rotw>7.615435423628492E-9</rotw>
+	<rotx>8.72664615643091E-5</rotx>
+	<roty>-0.9999999923845646</roty>
+	<rotz>-8.726646215650212E-5</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw13</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>127.0</x>
+	<y>19.750000000000007</y>
+	<z>6.0</z>
+	<rotw>7.615435423628492E-9</rotw>
+	<rotx>8.726646156430907E-5</rotx>
+	<roty>-0.9999999923845646</roty>
+	<rotz>-8.72664621565021E-5</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>beam5</name>
+			<type>vexCchannel</type>
+			<id>Aluminum_1x2x25</id>
+			<pose>
+	<x>133.34999999999997</x>
+	<y>-24.7</y>
+	<z>8.0</z>
+	<rotw>0.7071684852012867</rotw>
+	<rotx>5.62297011902667E-13</rotx>
+	<roty>5.621988811239338E-13</roty>
+	<rotz>0.7070450717868824</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing13</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer</id>
+			<pose>
+	<x>126.99999999999997</x>
+	<y>235.64999999999986</y>
+	<z>9.0</z>
+	<rotw>0.7071067784940845</rotw>
+	<rotx>6.170670739622043E-5</rotx>
+	<roty>-6.170670739622039E-5</roty>
+	<rotz>-0.7071067784940844</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>bearing14</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer</id>
+			<pose>
+	<x>127.0</x>
+	<y>19.750000000000007</y>
+	<z>9.0</z>
+	<rotw>0.7071067784940845</rotw>
+	<rotx>6.170670739622037E-5</rotx>
+	<roty>6.17067073962204E-5</roty>
+	<rotz>0.7071067784940844</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw14</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>1.2434497875801753E-14</x>
+	<y>235.64999999999986</y>
+	<z>6.0</z>
+	<rotw>7.615435423628492E-9</rotw>
+	<rotx>8.72664615643091E-5</rotx>
+	<roty>-0.9999999923845646</roty>
+	<rotz>-8.726646215650212E-5</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>screw15</name>
+			<type>capScrew</type>
+			<id>6#32</id>
+			<pose>
+	<x>1.2434497875801753E-14</x>
+	<y>19.750000000000007</y>
+	<z>6.0</z>
+	<rotw>7.615435423628492E-9</rotw>
+	<rotx>8.726646156430907E-5</rotx>
+	<roty>-0.9999999923845646</roty>
+	<rotz>-8.72664621565021E-5</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut10</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>1.2434497875801753E-14</x>
+	<y>19.749999999999996</y>
+	<z>9.0</z>
+	<rotw>0.7072301811382272</rotw>
+	<rotx>6.17174763084776E-5</rotx>
+	<roty>6.169593660426954E-5</roty>
+	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>lastlink</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>nut11</name>
+			<type>lockNut</type>
+			<id>8#32</id>
+			<pose>
+	<x>1.2434497875801753E-14</x>
+	<y>235.64999999999986</y>
+	<z>9.0</z>
+	<rotw>0.7072301811382272</rotw>
+	<rotx>6.171747630847761E-5</rotx>
+	<roty>6.169593660426955E-5</roty>
+	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>lastlink</frame>
 		</vitamin>
 
 	</vitamins>
