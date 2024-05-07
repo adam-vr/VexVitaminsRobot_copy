@@ -9,7 +9,7 @@
 		<file>FixedDriveEngine.groovy</file>
 	</driveEngine>
 
-<name>VexVitaminsRobot_copy</name>
+<name>VexVitaminsRobot_copy1</name>
 <drivable>
 
 <name>wheel</name>
@@ -42,22 +42,6 @@
 	<vitamins>
 
 		<vitamin>
-			<name>motor</name>
-			<type>vexMotor</type>
-			<id>393</id>
-			<pose>
-	<x>32.400000000000006</x>
-	<y>170.45</y>
-	<z>-336.5500000000001</z>
-	<rotw>-8.726646248878822E-5</rotw>
-	<rotx>-0.9999999961922823</rotx>
-	<roty>-2.5129086027198066E-24</roty>
-	<rotz>2.879581137454967E-20</rotz>
-			</pose>
-			<frame>origin</frame>
-		</vitamin>
-
-		<vitamin>
 			<name>shaft</name>
 			<type>vexWheels</type>
 			<id>4inchSmooth</id>
@@ -75,18 +59,18 @@
 
 		<vitamin>
 			<name>electroMechanical</name>
-			<type>hobbyServo</type>
-			<id>mg92b</id>
+			<type>vexMotor</type>
+			<id>393</id>
 			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
-	<rotx>-0.0</rotx>
-	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
+	<x>32.400000000000006</x>
+	<y>170.45</y>
+	<z>-336.5500000000001</z>
+	<rotw>-8.726646248878822E-5</rotw>
+	<rotx>-0.9999999961922823</rotx>
+	<roty>-2.5129086027198066E-24</roty>
+	<rotz>2.879581137454967E-20</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>origin</frame>
 		</vitamin>
 
 	</vitamins>
@@ -313,16 +297,16 @@
 
 		<vitamin>
 			<name>electroMechanical</name>
-			<type>hobbyServo</type>
-			<id>mg92b</id>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
 			<pose>
-	<x>0.0</x>
-	<y>0.0</y>
-	<z>0.0</z>
-	<rotw>1.0</rotw>
+	<x>25.4</x>
+	<y>-7.35</y>
+	<z>-12.7</z>
+	<rotw>0.7071067811865476</rotw>
 	<rotx>-0.0</rotx>
 	<roty>-0.0</roty>
-	<rotz>-0.0</rotz>
+	<rotz>0.7071067811865475</rotz>
 			</pose>
 			<frame>lastlink</frame>
 		</vitamin>
@@ -428,6 +412,22 @@
 	<rotz>-0.0</rotz>
 			</pose>
 			<frame>origin</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>electroMechanical</name>
+			<type>vex_Hex_Nut_Retainer</type>
+			<id>1_Post_Hex_Nut_Retainer_With_Bearing</id>
+			<pose>
+	<x>26.4</x>
+	<y>5.35</y>
+	<z>-266.7</z>
+	<rotw>4.329780281177467E-17</rotw>
+	<rotx>-0.7071067811865476</rotx>
+	<roty>-0.7071067811865475</roty>
+	<rotz>4.329780281177466E-17</rotz>
+			</pose>
+			<frame>lastlink</frame>
 		</vitamin>
 
 	</vitamins>
@@ -940,10 +940,10 @@
 	<x>228.59999999999988</x>
 	<y>247.3</y>
 	<z>-12.700000000000001</z>
-	<rotw>0.5000436313283436</rotw>
-	<rotx>-0.49995636486393863</rotx>
-	<roty>0.49995636486600636</roty>
-	<rotz>0.5000436313262762</rotz>
+	<rotw>0.5000436313283435</rotw>
+	<rotx>-0.4999563648639385</rotx>
+	<roty>0.49995636486600625</roty>
+	<rotz>0.500043631326276</rotz>
 			</pose>
 			<frame>lastlink</frame>
 		</vitamin>
