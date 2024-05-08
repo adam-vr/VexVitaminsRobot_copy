@@ -9,7 +9,7 @@
 		<file>FixedDriveEngine.groovy</file>
 	</driveEngine>
 
-<name>VexVitaminsRobot_copy1</name>
+<name>VexVitaminsRobot_copy11</name>
 <drivable>
 
 <name>wheel</name>
@@ -60,7 +60,7 @@
 		<vitamin>
 			<name>electroMechanical</name>
 			<type>vexMotor</type>
-			<id>393</id>
+			<id>v5_11w</id>
 			<pose>
 	<x>32.400000000000006</x>
 	<y>170.45</y>
@@ -179,15 +179,15 @@
 		<vitamin>
 			<name>electroMechanical</name>
 			<type>vexMotor</type>
-			<id>393</id>
+			<id>v5_11w</id>
 			<pose>
 	<x>31.75</x>
 	<y>165.09999999999994</y>
 	<z>-19.049999999999997</z>
-	<rotw>8.726646248878822E-5</rotw>
+	<rotw>-8.726646248878822E-5</rotw>
 	<rotx>-0.0</rotx>
 	<roty>-0.0</roty>
-	<rotz>0.9999999961922823</rotz>
+	<rotz>-0.9999999961922823</rotz>
 			</pose>
 			<frame>lastlink</frame>
 		</vitamin>
@@ -312,7 +312,7 @@
 		</vitamin>
 
 	</vitamins>
-	<passive>false</passive>
+	<passive>true</passive>
 	<mass>0.01</mass>
 	<centerOfMassFromCentroid>
 	<x>0.0</x>
@@ -431,7 +431,7 @@
 		</vitamin>
 
 	</vitamins>
-	<passive>false</passive>
+	<passive>true</passive>
 	<mass>0.01</mass>
 	<centerOfMassFromCentroid>
 	<x>0.0</x>
@@ -545,7 +545,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -561,7 +561,7 @@
 	<roty>1.962615573354719E-17</roty>
 	<rotz>-1.9626155733547187E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -577,7 +577,7 @@
 	<roty>1.962615573354719E-17</roty>
 	<rotz>-1.9626155733547187E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -593,7 +593,7 @@
 	<roty>0.7071067784940847</roty>
 	<rotz>0.7071067784940843</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -609,7 +609,7 @@
 	<roty>-0.7071067704166953</roty>
 	<rotz>-0.7071067704166955</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -625,7 +625,7 @@
 	<roty>-0.7071067704166953</roty>
 	<rotz>-0.7071067704166955</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -641,7 +641,7 @@
 	<roty>1.9626155733547183E-17</roty>
 	<rotz>-1.9626155733547193E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -657,7 +657,7 @@
 	<roty>1.962615573354719E-17</roty>
 	<rotz>-1.9626155733547187E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -673,7 +673,7 @@
 	<roty>1.962615573354719E-17</roty>
 	<rotz>-1.9626155733547187E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -689,7 +689,7 @@
 	<roty>-0.7071067784940847</roty>
 	<rotz>-0.7071067784940843</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -705,7 +705,7 @@
 	<roty>1.9626155733547183E-17</roty>
 	<rotz>-1.9626155733547193E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -721,7 +721,7 @@
 	<roty>1.9626155733547183E-17</roty>
 	<rotz>-1.9626155733547193E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -737,7 +737,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -753,7 +753,7 @@
 	<roty>-0.49999999238410936</roty>
 	<rotz>0.4999999923850197</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -769,23 +769,7 @@
 	<roty>-0.49999999238410936</roty>
 	<rotz>0.4999999923850197</rotz>
 			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>wheel</name>
-			<type>vexWheels</type>
-			<id>4inchSmooth</id>
-			<pose>
-	<x>63.50000000000002</x>
-	<y>-9.0</y>
-	<z>-12.700000000000001</z>
-	<rotw>0.5000872664617015</rotw>
-	<rotx>0.49991273353829857</rotx>
-	<roty>-0.49999999238410936</roty>
-	<rotz>0.4999999923850197</rotz>
-			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -801,23 +785,7 @@
 	<roty>-0.49999999238410936</roty>
 	<rotz>0.4999999923850197</rotz>
 			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>wheel2</name>
-			<type>vexWheels</type>
-			<id>4inchSmooth</id>
-			<pose>
-	<x>228.59999999999988</x>
-	<y>-9.0</y>
-	<z>-12.700000000000001</z>
-	<rotw>0.5000872664618425</rotw>
-	<rotx>0.4999127335381576</rotx>
-	<roty>-0.4999999923840836</roty>
-	<rotz>0.49999999238504544</rotz>
-			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -833,7 +801,7 @@
 	<roty>-0.9999999923845646</roty>
 	<rotz>-8.726646215650216E-5</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -849,7 +817,7 @@
 	<roty>-6.170670739622039E-5</roty>
 	<rotz>-0.7071067784940844</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -865,7 +833,7 @@
 	<roty>6.169593660426948E-5</roty>
 	<rotz>0.7069833543102375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -881,7 +849,7 @@
 	<roty>6.169593660426952E-5</roty>
 	<rotz>0.7069833543102375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -897,7 +865,7 @@
 	<roty>6.169593660426951E-5</roty>
 	<rotz>0.7069833543102375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -913,7 +881,7 @@
 	<roty>-0.9999999923845646</roty>
 	<rotz>-8.726646215650216E-5</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -929,7 +897,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -945,7 +913,7 @@
 	<roty>0.49995636486600625</roty>
 	<rotz>0.500043631326276</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -961,7 +929,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -977,7 +945,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -993,23 +961,7 @@
 	<roty>-0.49999999238410936</roty>
 	<rotz>0.4999999923850197</rotz>
 			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>wheel3</name>
-			<type>vexWheels</type>
-			<id>4inchSmooth</id>
-			<pose>
-	<x>228.59999999999988</x>
-	<y>284.1000000000001</y>
-	<z>-12.700000000000001</z>
-	<rotw>0.5000872664617015</rotw>
-	<rotx>0.49991273353829857</rotx>
-	<roty>-0.49999999238410936</roty>
-	<rotz>0.4999999923850197</rotz>
-			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1025,7 +977,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1041,7 +993,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1057,7 +1009,7 @@
 	<roty>-0.7070450690944606</roty>
 	<rotz>0.7071684825087824</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1073,7 +1025,7 @@
 	<roty>1.4711317352899973E-17</roty>
 	<rotz>1.4708749967688956E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1089,7 +1041,7 @@
 	<roty>-0.0</roty>
 	<rotz>-0.0</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1105,7 +1057,7 @@
 	<roty>2.6981172591700262E-17</roty>
 	<rotz>-2.6981172591700234E-17</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1121,7 +1073,7 @@
 	<roty>-0.7071067784940847</roty>
 	<rotz>-0.7071067784940843</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1137,7 +1089,7 @@
 	<roty>-0.49999999238410936</roty>
 	<rotz>0.4999999923850197</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1153,7 +1105,7 @@
 	<roty>-0.49999999238410936</roty>
 	<rotz>0.4999999923850197</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1169,23 +1121,7 @@
 	<roty>-0.7071067811865475</roty>
 	<rotz>0.7071067811865476</rotz>
 			</pose>
-			<frame>lastlink</frame>
-		</vitamin>
-
-		<vitamin>
-			<name>wheel4</name>
-			<type>vexWheels</type>
-			<id>4inchSmooth</id>
-			<pose>
-	<x>63.50000000000002</x>
-	<y>264.35</y>
-	<z>-12.700000000000001</z>
-	<rotw>0.5000872664621785</rotw>
-	<rotx>-0.49991273353782134</rotx>
-	<roty>0.4999999923845866</roty>
-	<rotz>0.4999999923845426</rotz>
-			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1201,7 +1137,7 @@
 	<roty>5.621988811239338E-13</roty>
 	<rotz>0.7070450717868824</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1217,7 +1153,7 @@
 	<roty>5.621988811239338E-13</roty>
 	<rotz>0.7070450717868824</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1233,7 +1169,7 @@
 	<roty>-0.4999563648650337</roty>
 	<rotz>0.49995636486503375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1249,7 +1185,7 @@
 	<roty>-6.170670739622039E-5</roty>
 	<rotz>-0.7071067784940844</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1265,7 +1201,7 @@
 	<roty>6.170670739622039E-5</roty>
 	<rotz>0.7071067784940844</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1281,7 +1217,7 @@
 	<roty>6.169593660426954E-5</roty>
 	<rotz>0.7069833543102375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1297,7 +1233,7 @@
 	<roty>6.169593660426955E-5</roty>
 	<rotz>0.7069833543102375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1313,7 +1249,7 @@
 	<roty>-0.9999999923845646</roty>
 	<rotz>-8.726646215650212E-5</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1329,7 +1265,7 @@
 	<roty>-0.9999999923845646</roty>
 	<rotz>-8.72664621565021E-5</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1345,7 +1281,7 @@
 	<roty>5.621988811239338E-13</roty>
 	<rotz>0.7070450717868824</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1361,7 +1297,7 @@
 	<roty>-6.170670739622039E-5</roty>
 	<rotz>-0.7071067784940844</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1377,7 +1313,7 @@
 	<roty>6.17067073962204E-5</roty>
 	<rotz>0.7071067784940844</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1393,7 +1329,7 @@
 	<roty>-0.9999999923845646</roty>
 	<rotz>-8.726646215650212E-5</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1409,7 +1345,7 @@
 	<roty>-0.9999999923845646</roty>
 	<rotz>-8.72664621565021E-5</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1425,7 +1361,7 @@
 	<roty>6.169593660426954E-5</roty>
 	<rotz>0.7069833543102375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 		<vitamin>
@@ -1441,7 +1377,7 @@
 	<roty>6.169593660426955E-5</roty>
 	<rotz>0.7069833543102375</rotz>
 			</pose>
-			<frame>lastlink</frame>
+			<frame>default</frame>
 		</vitamin>
 
 	</vitamins>
