@@ -121,10 +121,10 @@
 	<x>228.59999999999988</x>
 	<y>260.34999999999985</y>
 	<z>-12.699999999999998</z>
-	<rotw>0.4913181896468509</rotw>
-	<rotx>-0.4998802190889403</rotx>
-	<roty>0.499967472260313</roty>
-	<rotz>0.5086833295552031</rotz>
+	<rotw>0.4957385248884592</rotw>
+	<rotx>-0.49549820128722527</rotx>
+	<roty>0.5043106575077486</roty>
+	<rotz>0.5043764548297639</rotz>
 
 </baseToZframe>
 
@@ -240,10 +240,10 @@
 	<x>228.59999999999988</x>
 	<y>-6.35</y>
 	<z>-12.699999999999998</z>
-	<rotw>0.5087262032186423</rotw>
-	<rotx>0.499923847578195</rotx>
-	<roty>-0.4999238475781962</roty>
-	<rotz>0.49127379678135763</rotz>
+	<rotw>0.5043442292812785</rotw>
+	<rotx>0.5043442292812753</rotx>
+	<roty>-0.49561769378289594</roty>
+	<rotz>0.4956176937828926</rotz>
 
 </baseToZframe>
 
@@ -1360,6 +1360,38 @@
 	<rotx>6.171747630847761E-5</rotx>
 	<roty>6.169593660426955E-5</roty>
 	<rotz>0.7069833543102375</rotz>
+			</pose>
+			<frame>default</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>battery</name>
+			<type>VexBattery</type>
+			<id>v5_14wh</id>
+			<pose>
+	<x>101.6</x>
+	<y>197.5499999999999</y>
+	<z>8.0</z>
+	<rotw>8.726646248878822E-5</rotw>
+	<rotx>0.9999999961922823</rotx>
+	<roty>-4.4058304380378206E-33</roty>
+	<rotz>5.048709774190414E-29</rotz>
+			</pose>
+			<frame>default</frame>
+		</vitamin>
+
+		<vitamin>
+			<name>radio</name>
+			<type>VexWireless</type>
+			<id>v5_Vexnet</id>
+			<pose>
+	<x>158.74999999999994</x>
+	<y>-24.69999999999999</y>
+	<z>8.0</z>
+	<rotw>0.0012352100375332326</rotw>
+	<rotx>0.0012330560684681968</rotx>
+	<roty>0.7064883688991509</roty>
+	<rotz>0.7077225010123053</rotz>
 			</pose>
 			<frame>default</frame>
 		</vitamin>
