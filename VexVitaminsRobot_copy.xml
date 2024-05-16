@@ -26,7 +26,7 @@
 	<deviceName>virtualDev</deviceName>
 	<type>virtual</type>
 	<index>4</index>
-	<scale>0.33</scale>
+	<scale>2.0</scale>
 	<upperLimit>255.0</upperLimit>
 	<lowerLimit>0.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -108,7 +108,7 @@
 	<deviceName>virtualDev</deviceName>
 	<type>virtual</type>
 	<index>5</index>
-	<scale>0.33</scale>
+	<scale>2.0</scale>
 	<upperLimit>255.0</upperLimit>
 	<lowerLimit>0.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -190,7 +190,7 @@
 	<deviceName>virtualDev</deviceName>
 	<type>virtual</type>
 	<index>6</index>
-	<scale>0.33</scale>
+	<scale>2.0</scale>
 	<upperLimit>255.0</upperLimit>
 	<lowerLimit>0.0</lowerLimit>
 	<upperVelocity>1.0E8</upperVelocity>
@@ -242,9 +242,9 @@
 			<type>vexCchannel</type>
 			<id>Aluminum 2x15</id>
 			<pose>
-	<x>-184.14999999999992</x>
-	<y>-6.35</y>
-	<z>6.35</z>
+	<x>-177.79999999999993</x>
+	<y>0.0</y>
+	<z>0.0</z>
 	<rotw>1.0</rotw>
 	<rotx>-0.0</rotx>
 	<roty>-0.0</roty>
