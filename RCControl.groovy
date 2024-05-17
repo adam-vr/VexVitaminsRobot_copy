@@ -20,7 +20,7 @@ if(args==null){
 	base=args.get(0)
 
 
-println "Now we will move just one leg"
+println "Now we will move just one arm"
 DHParameterKinematics arm = base.getAppendages().get(0)
 double zLift=25
 println "Start from where the arm already is and move it from there with absolute location"
@@ -28,3 +28,16 @@ TransformNR current = arm.getCurrentPoseTarget();
 current.translateZ(zLift);
 arm.setDesiredTaskSpaceTransform(current,  2.0);
 ThreadUtil.wait(2000)// wait for the arm to fully arrive
+
+TransformNR move = new TransformNR(-30,1,0,new RotationNR())
+double toSeconds=1//100 ms for each increment
+for(int i=0;i<10;i++){
+	base.DriveArc(move, toSeconds);
+	ThreadUtil.wait((int)toSeconds*1000)
+}
+//TransformNR move2 = new TransformNR(0,-30,0,new RotationNR())
+//double toSeconds2=1//100 ms for each increment
+//for(int j=0;j<10;j++){
+//	base.DriveArc(move2, toSeconds2);
+//	ThreadUtil.wait((int)toSeconds2*1000)
+//}
